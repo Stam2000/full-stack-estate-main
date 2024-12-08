@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiRequest = axios.create({
-  baseURL: "http://localhost:8800/api",
+  baseURL: "https://full-stack-estate-main-k9cj.onrender.com/api",
   withCredentials: true,
 });
 
