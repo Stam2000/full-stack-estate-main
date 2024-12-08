@@ -30,7 +30,7 @@ const progressRef = useRef(null)
 
   const sendMessage = async ({msg,otherItems})=>{
     try {
-      const response = await fetch("http://localhost:8800/api/ai", {
+      const response = await fetch("https://full-stack-estate-main-k9cj.onrender.com/api/ai", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
