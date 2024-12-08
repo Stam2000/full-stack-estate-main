@@ -7,7 +7,9 @@ import { z } from "zod"
 
 const model = new ChatOpenAI({
     model: "gpt-4o",
+    apiKey: import.meta.env.VITE_OPENAI_API_KEY,
   });
+
 
 
  const initialQuestions = async (informationEstate:string)=>{
