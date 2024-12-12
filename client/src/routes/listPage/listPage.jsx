@@ -15,7 +15,7 @@ function ListPage() {
       <div className="listContainer">
         <div className="wrapper">
           <Filter />
-          <Suspense fallback={<p>Loading...</p>}>
+          <Suspense fallback={<p> it may take a minute or two 😅 (server wake-up) but then it's okay  ...</p>}>
             <Await
               resolve={data.postResponse}
               errorElement={<p>Error loading posts!</p>}
