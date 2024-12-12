@@ -1,6 +1,4 @@
 import { MapContainer, TileLayer } from "react-leaflet";
-import "./map.scss";
-import "leaflet/dist/leaflet.css";
 import Pin from "../pin/Pin";
 
 function Map({ items }) {
